@@ -1,0 +1,164 @@
+﻿
+> my-project@0.0.0 build
+> vite build
+
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 30 modules transformed.
+node.exe : 
+[31mx[39m Build 
+failed in 1.31s
+At C:\Users\preeti\App
+Data\Roaming\npm\npm.
+ps1:24 char:5
++     & "node$exe"  "
+$basedir/node_modules
+/npm/bin/npm-cli.js" 
+$args
++     ~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: ([31mx   
+ [39m Build faile    
+d in 1.31s:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+[31merror during 
+build:
+[31m[vite:esbuild] 
+Transform failed 
+with 4 errors:
+C:/brewstore/Client
+/src/components/admin
+/AdminDashboard.jsx:1
+5:7: ERROR: The 
+symbol "toast" has 
+already been declared
+C:/brewstore/Client
+/src/components/admin
+/AdminDashboard.jsx:1
+5:16: ERROR: The 
+symbol "Toaster" has 
+already been declared
+C:/brewstore/Client
+/src/components/admin
+/AdminDashboard.jsx:2
+7:2: ERROR: The 
+symbol "Edit" has 
+already been declared
+C:/brewstore/Client
+/src/components/admin
+/AdminDashboard.jsx:2
+8:2: ERROR: The 
+symbol "Trash2" has 
+already been 
+declared[31m
+file: [36mC:/CoffeeS
+tore/Client/src/compo
+nents/admin/AdminDash
+board.jsx:15:7[31m
+[33m
+[33mThe symbol 
+"toast" has already 
+been declared[33m
+13 |  } from 
+"../../api/api";
+14 |  import toast, 
+{ Toaster } from 
+"react-hot-toast";
+15 |  import toast, 
+{ Toaster } from 
+"react-hot-toast";
+   |         ^
+16 |  import {
+17 |    
+LayoutDashboard,
+
+[33mThe symbol 
+"Toaster" has 
+already been 
+declared[33m
+13 |  } from 
+"../../api/api";
+14 |  import toast, 
+{ Toaster } from 
+"react-hot-toast";
+15 |  import toast, 
+{ Toaster } from 
+"react-hot-toast";
+   |                 
+ ^
+16 |  import {
+17 |    
+LayoutDashboard,
+
+[33mThe symbol 
+"Edit" has already 
+been declared[33m
+25 |    Edit,
+26 |    Trash2,
+27 |    Edit,
+   |    ^
+28 |    Trash2,
+29 |  } from 
+"lucide-react";
+
+[33mThe symbol 
+"Trash2" has already 
+been declared[33m
+26 |    Trash2,
+27 |    Edit,
+28 |    Trash2,
+   |    ^
+29 |  } from 
+"lucide-react";
+30 |  
+[31m
+    at 
+failureErrorWithLog (
+C:\brewstore\Client
+\node_modules\esbuild
+\lib\main.js:1472:15)
+    at C:\brewstore
+\Client\node_modules\
+esbuild\lib\main.js:7
+55:50
+    at responseCallba
+cks.<computed> (C:\Co
+ffeeStore\Client\node
+_modules\esbuild\lib\
+main.js:622:9)
+    at 
+handleIncomingPacket 
+(C:\brewstore\Clien
+t\node_modules\esbuil
+d\lib\main.js:677:12)
+    at Socket.readFro
+mStdout (C:\CoffeeSto
+re\Client\node_module
+s\esbuild\lib\main.js
+:600:7)
+    at Socket.emit 
+(node:events:518:28)
+    at addChunk (node
+:internal/streams/rea
+dable:559:12)
+    at readableAddChu
+nkPushByteMode (node:
+internal/streams/read
+able:510:3)
+    at Readable.push 
+(node:internal/stream
+s/readable:390:5)
+    at 
+Pipe.onStreamRead (no
+de:internal/stream_ba
+se_commons:190:23)[3
+9m

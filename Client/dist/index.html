@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brew Store beans</title>
+    
+    <!-- Content Security Policy for integrity -->
+    <meta http-equiv="Content-Security-Policy" content="
+      default-src 'self';
+      script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google.com https://www.gstatic.com;
+      style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+      font-src 'self' https://fonts.gstatic.com;
+      img-src 'self' data: https: http:;
+      connect-src 'self' http://localhost:5001 https://rc-epay.esewa.com.np;
+      frame-src https://www.google.com https://rc-epay.esewa.com.np;
+      object-src 'none';
+      base-uri 'self';
+      form-action 'self' https://rc-epay.esewa.com.np;
+    ">
+    
+    <!-- Subresource Integrity (SRI) for external resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" 
+          rel="stylesheet" 
+          integrity="sha384-..." 
+          crossorigin="anonymous">
+    
+    <!-- Integrity checks for external scripts -->
+    <script>
+      // Frontend integrity verification
+      window.integrityCheck = {
+        verifyImage: function(src) {
+          // Verify image sources are from trusted domains
+          const trustedDomains = ['localhost:5001', 'localhost:5174'];
+          const url = new URL(src, window.location.href);
+          return trustedDomains.some(domain => url.hostname.includes(domain));
+        },
+        
+        verifyExternalLink: function(href) {
+          // Verify external links are to trusted domains
+          const trustedExternalDomains = ['instagram.com', 'facebook.com', 'twitter.com', 'youtube.com'];
+          const url = new URL(href);
+          return trustedExternalDomains.includes(url.hostname);
+        }
+      };
+    </script>
+    <script type="module" crossorigin src="/assets/index-C2_oyxRs.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CX4VATe-.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

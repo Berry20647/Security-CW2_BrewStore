@@ -1,0 +1,346 @@
+﻿[
+    {
+        "filePath": "C:\\brewstore\\Client\\src\\components\\admin\\AdminDashboard.jsx",
+        "messages": [
+            {
+                "ruleId": "no-unused-vars",
+                "severity": 2,
+                "message": "'React' is defined but never used.",
+                "line": 1,
+                "column": 8,
+                "nodeType": "Identifier",
+                "messageId": "unusedVar",
+                "endLine": 1,
+                "endColumn": 13,
+                "suggestions": [
+                    {
+                        "messageId": "removeVar",
+                        "data": {
+                            "varName": "React"
+                        },
+                        "fix": {
+                            "range": [
+                                7,
+                                13
+                            ],
+                            "text": ""
+                        },
+                        "desc": "Remove unused variable 'React'."
+                    }
+                ]
+            },
+            {
+                "ruleId": "no-unused-vars",
+                "severity": 2,
+                "message": "'api' is defined but never used.",
+                "line": 2,
+                "column": 8,
+                "nodeType": "Identifier",
+                "messageId": "unusedVar",
+                "endLine": 2,
+                "endColumn": 11,
+                "suggestions": [
+                    {
+                        "messageId": "removeVar",
+                        "data": {
+                            "varName": "api"
+                        },
+                        "fix": {
+                            "range": [
+                                59,
+                                63
+                            ],
+                            "text": ""
+                        },
+                        "desc": "Remove unused variable 'api'."
+                    }
+                ]
+            },
+            {
+                "ruleId": "no-unused-vars",
+                "severity": 2,
+                "message": "'getProfile' is defined but never used.",
+                "line": 12,
+                "column": 3,
+                "nodeType": "Identifier",
+                "messageId": "unusedVar",
+                "endLine": 12,
+                "endColumn": 13,
+                "suggestions": [
+                    {
+                        "messageId": "removeVar",
+                        "data": {
+                            "varName": "getProfile"
+                        },
+                        "fix": {
+                            "range": [
+                                213,
+                                227
+                            ],
+                            "text": ""
+                        },
+                        "desc": "Remove unused variable 'getProfile'."
+                    }
+                ]
+            },
+            {
+                "ruleId": "no-unused-vars",
+                "severity": 2,
+                "message": "'updateProfile' is defined but never used.",
+                "line": 13,
+                "column": 3,
+                "nodeType": "Identifier",
+                "messageId": "unusedVar",
+                "endLine": 13,
+                "endColumn": 16,
+                "suggestions": [
+                    {
+                        "messageId": "removeVar",
+                        "data": {
+                            "varName": "updateProfile"
+                        },
+                        "fix": {
+                            "range": [
+                                227,
+                                244
+                            ],
+                            "text": ""
+                        },
+                        "desc": "Remove unused variable 'updateProfile'."
+                    }
+                ]
+            },
+            {
+                "ruleId": "no-unused-vars",
+                "severity": 2,
+                "message": "'coverImage' is defined but never used.",
+                "line": 19,
+                "column": 8,
+                "nodeType": "Identifier",
+                "messageId": "unusedVar",
+                "endLine": 19,
+                "endColumn": 18,
+                "suggestions": [
+                    {
+                        "messageId": "removeVar",
+                        "data": {
+                            "varName": "coverImage"
+                        },
+                        "fix": {
+                            "range": [
+                                410,
+                                426
+                            ],
+                            "text": ""
+                        },
+                        "desc": "Remove unused variable 'coverImage'."
+                    }
+                ]
+            },
+            {
+                "ruleId": "no-unused-vars",
+                "severity": 2,
+                "message": "'Search' is defined but never used.",
+                "line": 31,
+                "column": 3,
+                "nodeType": "Identifier",
+                "messageId": "unusedVar",
+                "endLine": 31,
+                "endColumn": 9,
+                "suggestions": [
+                    {
+                        "messageId": "removeVar",
+                        "data": {
+                            "varName": "Search"
+                        },
+                        "fix": {
+                            "range": [
+                                579,
+                                589
+                            ],
+                            "text": ""
+                        },
+                        "desc": "Remove unused variable 'Search'."
+                    }
+                ]
+            },
+            {
+                "ruleId": "no-unused-vars",
+                "severity": 2,
+                "message": "'ChevronDown' is defined but never used.",
+                "line": 32,
+                "column": 3,
+                "nodeType": "Identifier",
+                "messageId": "unusedVar",
+                "endLine": 32,
+                "endColumn": 14,
+                "suggestions": [
+                    {
+                        "messageId": "removeVar",
+                        "data": {
+                            "varName": "ChevronDown"
+                        },
+                        "fix": {
+                            "range": [
+                                589,
+                                604
+                            ],
+                            "text": ""
+                        },
+                        "desc": "Remove unused variable 'ChevronDown'."
+                    }
+                ]
+            },
+            {
+                "ruleId": "no-unused-vars",
+                "severity": 2,
+                "message": "'navigate' is assigned a value but never used.",
+                "line": 88,
+                "column": 9,
+                "nodeType": "Identifier",
+                "messageId": "unusedVar",
+                "endLine": 88,
+                "endColumn": 17,
+                "suggestions": [
+                    {
+                        "messageId": "removeVar",
+                        "data": {
+                            "varName": "navigate"
+                        },
+                        "fix": {
+                            "range": [
+                                2839,
+                                2870
+                            ],
+                            "text": ""
+                        },
+                        "desc": "Remove unused variable 'navigate'."
+                    }
+                ]
+            },
+            {
+                "ruleId": "no-unused-vars",
+                "severity": 2,
+                "message": "'loading' is assigned a value but never used.",
+                "line": 200,
+                "column": 10,
+                "nodeType": "Identifier",
+                "messageId": "unusedVar",
+                "endLine": 200,
+                "endColumn": 17,
+                "suggestions": [
+                    {
+                        "messageId": "removeVar",
+                        "data": {
+                            "varName": "loading"
+                        },
+                        "fix": {
+                            "range": [
+                                7698,
+                                7705
+                            ],
+                            "text": ""
+                        },
+                        "desc": "Remove unused variable 'loading'."
+                    }
+                ]
+            },
+            {
+                "ruleId": "react-hooks/exhaustive-deps",
+                "severity": 1,
+                "message": "React Hook useEffect has a missing dependency: 'setError'. Either include it or remove the dependency array. If 'setError' changes too often, find the parent component that defines it and wrap that definition in useCallback.",
+                "line": 209,
+                "column": 24,
+                "nodeType": "ArrayExpression",
+                "endLine": 209,
+                "endColumn": 26,
+                "suggestions": [
+                    {
+                        "desc": "Update the dependencies array to be: [setError]",
+                        "fix": {
+                            "range": [
+                                8126,
+                                8128
+                            ],
+                            "text": "[setError]"
+                        }
+                    }
+                ]
+            },
+            {
+                "ruleId": "react-hooks/exhaustive-deps",
+                "severity": 1,
+                "message": "React Hook useEffect has a missing dependency: 'setError'. Either include it or remove the dependency array. If 'setError' changes too often, find the parent component that defines it and wrap that definition in useCallback.",
+                "line": 305,
+                "column": 26,
+                "nodeType": "ArrayExpression",
+                "endLine": 305,
+                "endColumn": 28,
+                "suggestions": [
+                    {
+                        "desc": "Update the dependencies array to be: [setError]",
+                        "fix": {
+                            "range": [
+                                13050,
+                                13052
+                            ],
+                            "text": "[setError]"
+                        }
+                    }
+                ]
+            },
+            {
+                "ruleId": "react-hooks/exhaustive-deps",
+                "severity": 1,
+                "message": "React Hook useEffect has a missing dependency: 'setError'. Either include it or remove the dependency array. If 'setError' changes too often, find the parent component that defines it and wrap that definition in useCallback.",
+                "line": 363,
+                "column": 86,
+                "nodeType": "ArrayExpression",
+                "endLine": 363,
+                "endColumn": 88,
+                "suggestions": [
+                    {
+                        "desc": "Update the dependencies array to be: [setError]",
+                        "fix": {
+                            "range": [
+                                15695,
+                                15697
+                            ],
+                            "text": "[setError]"
+                        }
+                    }
+                ]
+            },
+            {
+                "ruleId": "react-hooks/exhaustive-deps",
+                "severity": 1,
+                "message": "React Hook useEffect has a missing dependency: 'setError'. Either include it or remove the dependency array. If 'setError' changes too often, find the parent component that defines it and wrap that definition in useCallback.",
+                "line": 410,
+                "column": 92,
+                "nodeType": "ArrayExpression",
+                "endLine": 410,
+                "endColumn": 94,
+                "suggestions": [
+                    {
+                        "desc": "Update the dependencies array to be: [setError]",
+                        "fix": {
+                            "range": [
+                                17758,
+                                17760
+                            ],
+                            "text": "[setError]"
+                        }
+                    }
+                ]
+            }
+        ],
+        "suppressedMessages": [],
+        "errorCount": 9,
+        "fatalErrorCount": 0,
+        "warningCount": 4,
+        "fixableErrorCount": 0,
+        "fixableWarningCount": 0,
+        "source": "import React, { useState, useEffect } from \"react\";\nimport api, {\n  getAllcoffees,\n  getAllBookings,\n  getAllUsers,\n  createcoffee,\n  updatecoffee,\n  deletecoffee,\n  updateBookingStatus,\n  blockUser,\n  unblockUser,\n  getProfile,\n  updateProfile,\n  getAllContacts,\n  deleteContact,\n} from \"../../api/api\";\nimport toast, { Toaster } from \"react-hot-toast\";\nimport { useNavigate } from \"react-router-dom\";\nimport coverImage from \"../../assets/cover.jpg\";\nimport {\n  LayoutDashboard,\n  ShoppingBag,\n  Users,\n  MessageSquare,\n  Activity,\n  Settings,\n  LogOut,\n  Plus,\n  Edit,\n  Trash2,\n  Search,\n  ChevronDown\n} from \"lucide-react\";\n\n// Sidebar Navigation\nconst Sidebar = ({ activeSection, setActiveSection, onLogout }) => {\n  const menuItems = [\n    { key: \"overview\", label: \"Overview\", icon: LayoutDashboard },\n    { key: \"products\", label: \"Products\", icon: ShoppingBag },\n    { key: \"orders\", label: \"Orders\", icon: ShoppingBag }, // Reusing icon, could be Package\n    { key: \"users\", label: \"Users\", icon: Users },\n    { key: \"contacts\", label: \"Inquiries\", icon: MessageSquare },\n    { key: \"activity\", label: \"Activity\", icon: Activity },\n    { key: \"profile\", label: \"Settings\", icon: Settings },\n  ];\n\n  return (\n    <div className=\"w-64 bg-coffee-bean text-latte flex flex-col h-screen fixed left-0 top-0 border-r border-white/10 shadow-2xl z-50\">\n      <div className=\"p-8 border-b border-white/10\">\n        <h1 className=\"text-2xl font-serif font-bold text-cream tracking-wide\">\n          Coffee<span className=\"text-caramel\">Admin</span>\n        </h1>\n      </div>\n      <nav className=\"flex-1 overflow-y-auto py-6 space-y-2 px-4\">\n        {menuItems.map((item) => {\n          const Icon = item.icon;\n          return (\n            <button\n              key={item.key}\n              onClick={() => setActiveSection(item.key)}\n              className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-300 ${activeSection === item.key\n                ? \"bg-caramel text-coffee-bean font-bold shadow-lg\"\n                : \"hover:bg-white/5 hover:text-white\"\n                }`}\n            >\n              <Icon size={20} />\n              <span className=\"text-sm tracking-wide\">{item.label}</span>\n            </button>\n          );\n        })}\n      </nav>\n      <div className=\"p-4 border-t border-white/10\">\n        <button\n          onClick={onLogout}\n          className=\"w-full flex items-center gap-3 px-4 py-3 rounded-xl text-red-400 hover:bg-white/5 hover:text-red-300 transition-all font-medium\"\n        >\n          <LogOut size={20} />\n          <span className=\"text-sm\">Log Out</span>\n        </button>\n      </div>\n    </div>\n  );\n};\n\nexport default function AdminDashboard() {\n  const [activeSection, setActiveSection] = useState(\"overview\");\n  const [error, setError] = useState(null);\n  const navigate = useNavigate();\n\n  const handleLogout = () => {\n    localStorage.removeItem(\"token\");\n    localStorage.removeItem(\"user\");\n    window.location.href = \"/login\";\n  };\n\n  const renderSection = () => {\n    switch (activeSection) {\n      case \"overview\": return <DashboardOverview setError={setError} />;\n      case \"products\": return <ProductManagement setError={setError} />;\n      case \"orders\": return <OrderManagement setError={setError} />;\n      case \"users\": return <UserManagement setError={setError} />;\n      case \"contacts\": return <ContactManagement setError={setError} />;\n      case \"activity\": return <ActivityLogs setError={setError} />;\n      case \"profile\": return <AdminProfileSettings setError={setError} />;\n      default: return <DashboardOverview setError={setError} />;\n    }\n  };\n\n  return (\n    <div className=\"min-h-screen bg-[#0a0a0a] text-gray-200 font-sans pl-64\">\n      <Toaster position=\"top-right\" />\n      <Sidebar activeSection={activeSection} setActiveSection={setActiveSection} onLogout={handleLogout} />\n\n      <main className=\"p-8 md:p-12\">\n        {error && (\n          <div className=\"bg-red-900/50 border border-red-500/50 text-red-200 px-6 py-4 rounded-xl mb-8 flex items-center justify-between\">\n            <span>{error}</span>\n            <button onClick={() => setError(null)} className=\"text-sm hover:underline\">Dismiss</button>\n          </div>\n        )}\n        {renderSection()}\n      </main>\n    </div>\n  );\n}\n\n// --- Subcomponents ---\n\nfunction DashboardOverview({ setError }) {\n  const [loading, setLoading] = useState(true);\n  const [stats, setStats] = useState({ orders: 0, sales: 0, users: 0, products: 0 });\n  const [recentOrders, setRecentOrders] = useState([]);\n\n  useEffect(() => {\n    Promise.all([getAllBookings(), getAllUsers(), getAllcoffees()])\n      .then(([orders, users, products]) => {\n        setStats({\n          orders: orders.length,\n          sales: orders.reduce((sum, o) => sum + (o.totalPrice || 0), 0),\n          users: users.length,\n          products: products.length,\n        });\n        setRecentOrders([...orders].sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt)).slice(0, 5));\n        setLoading(false);\n      })\n      .catch((err) => { setError(err.message); setLoading(false); });\n  }, [setError]);\n\n  if (loading) return <LoadingSpinner />;\n\n  return (\n    <div className=\"space-y-8 animate-fade-in\">\n      <header>\n        <h2 className=\"text-3xl font-serif font-bold text-cream\">Dashboard Overview</h2>\n        <p className=\"text-gray-500 text-sm\">Welcome back, Admin.</p>\n      </header>\n\n      <div className=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6\">\n        <StatCard label=\"Total Sales\" value={`Rs ${stats.sales.toLocaleString()}`} color=\"bg-gradient-to-br from-green-900 to-green-800\" />\n        <StatCard label=\"Total Orders\" value={stats.orders} color=\"bg-gradient-to-br from-blue-900 to-blue-800\" />\n        <StatCard label=\"Active Users\" value={stats.users} color=\"bg-gradient-to-br from-purple-900 to-purple-800\" />\n        <StatCard label=\"Product Types\" value={stats.products} color=\"bg-gradient-to-br from-orange-900 to-orange-800\" />\n      </div>\n\n      <div className=\"bg-[#111] rounded-2xl p-8 border border-white/5 shadow-2xl\">\n        <h3 className=\"text-lg font-bold text-white mb-6 flex items-center gap-2\">\n          <Activity size={18} className=\"text-caramel\" /> Recent Activity\n        </h3>\n        <div className=\"overflow-x-auto\">\n          <table className=\"w-full text-left border-collapse\">\n            <thead>\n              <tr className=\"text-xs font-bold text-gray-500 uppercase border-b border-white/10\">\n                <th className=\"px-4 py-3\">Order ID</th>\n                <th className=\"px-4 py-3\">Customer</th>\n                <th className=\"px-4 py-3\">Details</th>\n                <th className=\"px-4 py-3\">Total</th>\n                <th className=\"px-4 py-3\">Status</th>\n              </tr>\n            </thead>\n            <tbody className=\"text-sm text-gray-300\">\n              {recentOrders.map((o) => (\n                <tr key={o._id} className=\"border-b border-white/5 hover:bg-white/5 transition-colors\">\n                  <td className=\"px-4 py-4 font-mono text-xs text-gray-500\">#{o._id.slice(-6)}</td>\n                  <td className=\"px-4 py-4 font-medium text-white\">{o.user?.name || \"Guest\"}</td>\n                  <td className=\"px-4 py-4\">{o.coffee?.name || \"Product\"}</td>\n                  <td className=\"px-4 py-4 font-bold text-caramel\">Rs {o.totalPrice}</td>\n                  <td className=\"px-4 py-4\"><StatusBadge status={o.status} /></td>\n                </tr>\n              ))}\n            </tbody>\n          </table>\n        </div>\n      </div>\n    </div>\n  );\n}\n\nfunction ProductManagement({ setError }) {\n  const [products, setProducts] = useState([]);\n  const [loading, setLoading] = useState(true);\n  const [form, setForm] = useState({ name: \"\", description: \"\", pricePerGram: \"\", stock: \"\", image: \"\" });\n  const [editing, setEditing] = useState(null);\n  const [showForm, setShowForm] = useState(false);\n\n  const fetchData = () => {\n    setLoading(true);\n    getAllcoffees().then(setProducts).catch(e => setError(e.message)).finally(() => setLoading(false));\n  };\n  useEffect(fetchData, []);\n\n  const handleSubmit = async (e) => {\n    e.preventDefault();\n    try {\n      if (editing) {\n        await updatecoffee(editing, form);\n        toast.success(\"Product updated\");\n      } else {\n        await createcoffee(form);\n        toast.success(\"Product created\");\n      }\n      setForm({ name: \"\", description: \"\", pricePerGram: \"\", stock: \"\", image: \"\" });\n      setEditing(null);\n      setShowForm(false);\n      fetchData();\n    } catch (err) { setError(err.message); }\n  };\n\n  const handleEdit = (p) => {\n    setForm({ name: p.name, description: p.description, pricePerGram: p.pricePerGram, stock: p.stock, image: p.image });\n    setEditing(p._id);\n    setShowForm(true);\n  };\n\n  const handleDelete = async (id) => {\n    if (!window.confirm(\"Confirm delete?\")) return;\n    try { await deletecoffee(id); toast.success(\"Deleted\"); fetchData(); } catch (e) { setError(e.message); }\n  };\n\n  return (\n    <div className=\"space-y-6 animate-fade-in\">\n      <div className=\"flex justify-between items-center\">\n        <h2 className=\"text-3xl font-serif font-bold text-cream\">Products</h2>\n        <button onClick={() => { setEditing(null); setForm({ name: \"\", description: \"\", pricePerGram: \"\", stock: \"\", image: \"\" }); setShowForm(!showForm); }} className=\"btn-primary flex items-center gap-2\">\n          {showForm ? \"Cancel\" : <><Plus size={18} /> Add Product</>}\n        </button>\n      </div>\n\n      {showForm && (\n        <div className=\"bg-[#151515] p-8 rounded-2xl border border-white/10 shadow-xl mb-8\">\n          <h3 className=\"text-lg font-bold text-white mb-6\">{editing ? \"Edit Product\" : \"New Coffee Blend\"}</h3>\n          <form onSubmit={handleSubmit} className=\"grid grid-cols-1 md:grid-cols-2 gap-6\">\n            <Input label=\"Name\" value={form.name} onChange={e => setForm({ ...form, name: e.target.value })} required />\n            <Input label=\"Price / Gram (Rs)\" type=\"number\" value={form.pricePerGram} onChange={e => setForm({ ...form, pricePerGram: e.target.value })} required />\n            <Input label=\"Stock (g)\" type=\"number\" value={form.stock} onChange={e => setForm({ ...form, stock: e.target.value })} required />\n            <Input label=\"Image Filename\" value={form.image} onChange={e => setForm({ ...form, image: e.target.value })} required placeholder=\"e.g. beans.jpg\" />\n            <div className=\"md:col-span-2\">\n              <label className=\"label\">Description</label>\n              <textarea\n                value={form.description}\n                onChange={e => setForm({ ...form, description: e.target.value })}\n                className=\"input-field h-32\"\n                required\n              />\n            </div>\n            <button type=\"submit\" className=\"btn-primary md:col-span-2\">{editing ? \"Update Product\" : \"Create Product\"}</button>\n          </form>\n        </div>\n      )}\n\n      <div className=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6\">\n        {products.map(p => (\n          <div key={p._id} className=\"bg-[#111] rounded-2xl border border-white/5 overflow-hidden group hover:border-caramel/50 transition-all\">\n            <div className=\"h-48 overflow-hidden relative\">\n              <img src={p.image ? `http://localhost:5001/uploads/${p.image}` : \"http://localhost:5001/uploads/placeholder.jpg\"} alt={p.name} className=\"w-full h-full object-cover group-hover:scale-110 transition-transform duration-500\" />\n              <div className=\"absolute top-2 right-2 bg-black/80 text-white text-xs font-bold px-2 py-1 rounded\">Rs {p.pricePerGram}/g</div>\n            </div>\n            <div className=\"p-5\">\n              <h3 className=\"font-bold text-lg text-white mb-1\">{p.name}</h3>\n              <p className=\"text-xs text-gray-500 mb-4 line-clamp-2\">{p.description}</p>\n              <div className=\"flex justify-between items-center\">\n                <span className={`text-xs font-bold px-2 py-1 rounded ${p.stock > 0 ? \"bg-green-900/30 text-green-400\" : \"bg-red-900/30 text-red-400\"}`}>\n                  {p.stock > 0 ? `${p.stock}g Stock` : \"Out of Stock\"}\n                </span>\n                <div className=\"flex gap-2\">\n                  <button onClick={() => handleEdit(p)} className=\"p-2 bg-gray-800 rounded-lg hover:bg-white hover:text-black transition-colors\"><Edit size={16} /></button>\n                  <button onClick={() => handleDelete(p._id)} className=\"p-2 bg-red-900/20 text-red-400 rounded-lg hover:bg-red-600 hover:text-white transition-colors\"><Trash2 size={16} /></button>\n                </div>\n              </div>\n            </div>\n          </div>\n        ))}\n      </div>\n    </div>\n  );\n}\n\nfunction OrderManagement({ setError }) {\n  const [orders, setOrders] = useState([]);\n  const [loading, setLoading] = useState(true);\n\n  const fetchOrders = () => {\n    setLoading(true);\n    getAllBookings().then(setOrders).catch(e => setError(e.message)).finally(() => setLoading(false));\n  };\n  useEffect(fetchOrders, []);\n\n  const handleStatus = async (id, status) => {\n    try { await updateBookingStatus(id, status); fetchOrders(); toast.success(\"Status updated\"); }\n    catch (e) { setError(e.message); }\n  };\n\n  if (loading) return <LoadingSpinner />;\n\n  return (\n    <div className=\"space-y-6 animate-fade-in\">\n      <h2 className=\"text-3xl font-serif font-bold text-cream\">Orders</h2>\n      <div className=\"bg-[#111] rounded-2xl border border-white/5 overflow-hidden\">\n        <table className=\"w-full text-left text-sm text-gray-300\">\n          <thead className=\"bg-[#1a1a1a] text-xs uppercase font-bold text-gray-500\">\n            <tr>\n              <th className=\"px-6 py-4\">ID</th>\n              <th className=\"px-6 py-4\">Customer</th>\n              <th className=\"px-6 py-4\">Items</th>\n              <th className=\"px-6 py-4\">Total</th>\n              <th className=\"px-6 py-4\">Status</th>\n              <th className=\"px-6 py-4\">Actions</th>\n            </tr>\n          </thead>\n          <tbody className=\"divide-y divide-white/5\">\n            {orders.map(o => (\n              <tr key={o._id} className=\"hover:bg-white/5 transition-colors\">\n                <td className=\"px-6 py-4 font-mono text-xs\">{o._id.slice(-6)}</td>\n                <td className=\"px-6 py-4 font-medium text-white\">\n                  {o.user?.name || \"Guest\"}\n                  <div className=\"text-xs text-gray-500\">{o.phone}</div>\n                </td>\n                <td className=\"px-6 py-4\">\n                  <div className=\"font-medium text-white\">{o.coffee?.name}</div>\n                  <div className=\"text-xs text-gray-500\">{o.quantity}x {o.weight}g</div>\n                </td>\n                <td className=\"px-6 py-4 font-bold text-caramel\">Rs {o.totalPrice}</td>\n                <td className=\"px-6 py-4\"><StatusBadge status={o.status} /></td>\n                <td className=\"px-6 py-4\">\n                  <select\n                    value={o.status}\n                    onChange={e => handleStatus(o._id, e.target.value)}\n                    className=\"bg-black/30 border border-white/10 rounded-lg px-3 py-1 text-xs focus:ring-1 focus:ring-caramel outline-none\"\n                  >\n                    {[\"pending\", \"shipped\", \"delivered\", \"cancelled\"].map(s => <option key={s} value={s}>{s.charAt(0).toUpperCase() + s.slice(1)}</option>)}\n                  </select>\n                </td>\n              </tr>\n            ))}\n          </tbody>\n        </table>\n      </div>\n    </div>\n  );\n}\n\nfunction UserManagement({ setError }) {\n  const [users, setUsers] = useState([]);\n  useEffect(() => { getAllUsers().then(setUsers).catch(e => setError(e.message)); }, []);\n\n  const toggleBlock = async (id, blocked) => {\n    try {\n      blocked ? await unblockUser(id) : await blockUser(id);\n      getAllUsers().then(setUsers);\n      toast.success(blocked ? \"Unblocked\" : \"Blocked\");\n    } catch (e) { setError(e.message); }\n  };\n\n  return (\n    <div className=\"space-y-6 animate-fade-in\">\n      <h2 className=\"text-3xl font-serif font-bold text-cream\">Users</h2>\n      <div className=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6\">\n        {users.map(u => (\n          <div key={u._id} className=\"bg-[#111] p-6 rounded-2xl border border-white/5 flex flex-col gap-4\">\n            <div className=\"flex items-center gap-4\">\n              <div className=\"w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center text-white font-bold text-lg\">\n                {u.name.charAt(0)}\n              </div>\n              <div>\n                <h3 className=\"font-bold text-white\">{u.name}</h3>\n                <p className=\"text-xs text-gray-500\">{u.email}</p>\n              </div>\n            </div>\n            <div className=\"flex justify-between items-center pt-4 border-t border-white/5\">\n              <span className={`text-xs px-2 py-1 rounded ${u.isAdmin ? 'bg-purple-900/30 text-purple-400' : 'bg-gray-800 text-gray-400'}`}>\n                {u.isAdmin ? \"Admin\" : \"Customer\"}\n              </span>\n              {!u.isAdmin && (\n                <button\n                  onClick={() => toggleBlock(u._id, u.blocked)}\n                  className={`text-xs font-bold px-3 py-1.5 rounded-lg transition-colors ${u.blocked ? 'bg-green-600/20 text-green-400 hover:bg-green-600/30' : 'bg-red-600/20 text-red-400 hover:bg-red-600/30'}`}\n                >\n                  {u.blocked ? \"Unblock User\" : \"Block User\"}\n                </button>\n              )}\n            </div>\n          </div>\n        ))}\n      </div>\n    </div>\n  );\n}\n\nfunction ContactManagement({ setError }) {\n  const [contacts, setContacts] = useState([]);\n  useEffect(() => { getAllContacts().then(setContacts).catch(e => setError(e.message)); }, []);\n\n  const handleDelete = async (id) => {\n    if (!confirm(\"Delete?\")) return;\n    try { await deleteContact(id); setContacts(contacts.filter(c => c._id !== id)); toast.success(\"Deleted\"); } catch (e) { setError(e.message); }\n  };\n\n  return (\n    <div className=\"space-y-6 animate-fade-in\">\n      <h2 className=\"text-3xl font-serif font-bold text-cream\">Inquiries</h2>\n      <div className=\"grid gap-4\">\n        {contacts.map(c => (\n          <div key={c._id} className=\"bg-[#111] p-6 rounded-2xl border border-white/5 flex flex-col md:flex-row justify-between gap-4\">\n            <div className=\"space-y-2\">\n              <h4 className=\"font-bold text-white text-lg\">{c.name} <span className=\"text-xs font-normal text-gray-500 ml-2\">({c.email})</span></h4>\n              <p className=\"text-gray-300 text-sm leading-relaxed bg-[#1a1a1a] p-3 rounded-lg border border-white/5\">{c.message}</p>\n            </div>\n            <button onClick={() => handleDelete(c._id)} className=\"self-start md:self-center bg-red-900/20 hover:bg-red-600 hover:text-white text-red-400 p-2 rounded-lg transition-colors\">\n              <Trash2 size={18} />\n            </button>\n          </div>\n        ))}\n        {contacts.length === 0 && <div className=\"text-gray-500\">No inquiries yet.</div>}\n      </div>\n    </div>\n  );\n}\n\n// Placeholder for less critical parts to keep file concise but functional\nfunction ActivityLogs() { return <div className=\"text-gray-500\">Activity logging system active.</div>; }\nfunction AdminProfileSettings() { return <div className=\"text-gray-500\">Profile settings managed centrally.</div>; }\n\n// --- UI Utilities ---\n\nconst StatCard = ({ label, value, color }) => (\n  <div className={`rounded-2xl p-6 shadow-xl ${color} relative overflow-hidden group`}>\n    <div className=\"relative z-10\">\n      <div className=\"text-3xl font-bold text-white mb-1\">{value}</div>\n      <div className=\"text-xs font-bold text-white/60 uppercase tracking-widest\">{label}</div>\n    </div>\n    <div className=\"absolute -right-4 -bottom-4 opacity-10 group-hover:opacity-20 transition-opacity transform group-hover:scale-110 duration-500\">\n      <ShoppingBag size={100} />\n    </div>\n  </div>\n);\n\nconst StatusBadge = ({ status }) => {\n  const styles = {\n    pending: \"bg-yellow-500/20 text-yellow-300\",\n    shipped: \"bg-blue-500/20 text-blue-300\",\n    delivered: \"bg-green-500/20 text-green-300\",\n    cancelled: \"bg-red-500/20 text-red-300\",\n  };\n  return <span className={`px-2 py-1 rounded text-xs font-bold uppercase tracking-wider ${styles[status] || \"bg-gray-500/20 text-gray-300\"}`}>{status}</span>;\n};\n\nconst Input = ({ label, ...props }) => (\n  <div className=\"space-y-2\">\n    <label className=\"text-xs font-bold text-gray-400 uppercase tracking-wide\">{label}</label>\n    <input className=\"input-field\" {...props} />\n  </div>\n);\n\n// Style classes\n// .input-field -> \"w-full bg-[#0a0a0a] border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:ring-1 focus:ring-caramel focus:border-caramel transition-all\"\n// .btn-primary -> \"bg-coffee-bean text-white px-6 py-3 rounded-xl font-bold hover:bg-caramel hover:text-white transition-all shadow-lg text-sm uppercase tracking-wide\"\n\nconst LoadingSpinner = () => <div className=\"flex items-center justify-center h-64\"><div className=\"w-8 h-8 border-2 border-caramel rounded-full animate-spin border-t-transparent\"></div></div>;",
+        "usedDeprecatedRules": []
+    }
+]

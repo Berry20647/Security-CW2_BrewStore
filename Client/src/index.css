@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cream text-coffee-bean font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif text-coffee-bean;
+  }
+}
+
+@layer components {
+  .primary-btn {
+    @apply bg-gradient-to-r from-rich-roast to-coffee-bean text-white font-semibold px-6 py-3 rounded-full hover:scale-105 hover:shadow-lg hover:from-coffee-bean hover:to-rich-roast transition-all duration-300;
+  }
+  .secondary-btn {
+    @apply border-2 border-coffee-bean text-coffee-bean font-semibold px-6 py-3 rounded-full hover:bg-coffee-bean hover:text-white transition-all duration-300;
+  }
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-lg rounded-2xl;
+  }
+}
